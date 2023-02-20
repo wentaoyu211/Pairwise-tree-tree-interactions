@@ -8,7 +8,7 @@ This repository contains data processing code, code for statistical analysis, si
   suitable data structures were created for fitting the models in rstan.
   2. **Code/model_array.r:** Code to fit the model candidates with specs (i.e. iteration, acceptance).
   3. **Code/submit_array.sh:** Shell script to submit model-array.r.
-  4. **Code/model.stan:** Model formulation (only pairwised model is provided here).
+  4. **Code/model.stan:** A folder contains all the model formulations tested in the study.
   5. **Code/analysis.r:** Code to extract alpha (interaction coefficients) matrices and visualize the results.
   6. **Code/alpha_sim.r:** Code to perturb the interaction matrices and comptuing corresponding biomass.
   7. **Code/identifiability.r** Code to perform indentifiability analysis given the number of parameters in the pairwise model.
