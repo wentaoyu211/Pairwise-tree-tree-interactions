@@ -1,4 +1,4 @@
-# BEF-China-tree-tree-interactions
+# Pairwise-tree-tree-interactions
 by Wentao Yu, Georg Albert, ...., Ulrich Brose
 
 This repository contains data processing code, code for statistical analysis, simulation code for perturbing the interaction matrix, simulation code for identifiability analysis. It modeled individual tree growth using empirical data (forest inventory data) from BEF-China spanning from 2009 to 2016. It partitioned the individual tree growth into intrinsic growth rate described by metabolic theory and pairwise tree-tree interactions with direct neighbours. 
