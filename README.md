@@ -1,4 +1,5 @@
-# Pairwise-tree-tree-interactions (Codes will become available upon the acceptance of this manuscript)
+# Pairwise-tree-tree-interactions 
+(Codes will become available upon the acceptance of this manuscript)
 by Wentao Yu, Georg Albert, Benjamin Rosenbaum, Florian Schnabel, Helge Bruelheide, John Connolly, Werner Härdtle, Goddert von Oheimb, Stefan Trogisch, Nadja Rüger, Ulrich Brose
 
 This repository contains data processing code, code for statistical analysis, simulation code for perturbing the interaction matrix, simulation code for identifiability analysis. It modeled individual tree growth using empirical data (forest inventory data) from BEF-China spanning from 2009 to 2016. It partitioned the individual tree growth into intrinsic growth rate described by metabolic theory and pairwise tree-tree interactions with direct neighbours. 
