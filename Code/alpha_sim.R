@@ -12,7 +12,7 @@ library(patchwork)
 ################################################################################
 
 # load parameter estimates 
-load("interaction_set1.RData")
+load("interaction_set1.RData") # this data can be found on figshare see MS
 
 n_rand <- 1000  # number of randomization
 
