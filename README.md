@@ -4,6 +4,7 @@
 by Wentao Yu, Georg Albert, Benjamin Rosenbaum, Florian Schnabel, Helge Bruelheide, John Connolly, Werner Härdtle, Goddert von Oheimb, Stefan Trogisch, Nadja Rüger, Ulrich Brose
 
 This repository contains codes for data processing, statistical analysis, simulations that perturb the interaction matrix, identifiability analysis. It modeled individual tree growth using empirical data (forest inventory data) from BEF-China spanning from 2009 to 2016. It partitioned the individual tree growth into intrinsic growth rate described by metabolic theory (MTE) and identity specific pairwise tree-tree interactions with direct neighbours. 
+Georg Albert wrote the identifiability.r and made significant contribution to alpha_sim.r. Stan models were writen with the help of Benjamin Rosenbaum.
 
 ## Code in this repository
   1. **code/data_processing.r:** Code to select 8 species included in the study from a full dataset which contains all 40 tree species in BEF-China. Subsequently, 
