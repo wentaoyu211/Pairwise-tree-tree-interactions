@@ -20,6 +20,7 @@ library(gridExtra) # annotation below x axis
 # each fitted model will be presented in the form of stan_fit object
 # which consists of sampled distribution of all parameters in the model
 # the pairwise model performed the best is the m.7.stan
+# in the list of model formulation PDF file, it is the m.7 model depicted in equation 
 # correspond to res.7.rds (stan_fit object)
 # it is the one whose interaction coefficients were shown in the MS
 
