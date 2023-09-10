@@ -12,5 +12,5 @@ This repository contains codes for data processing, statistical analysis, simula
   3. **Code/model.stan:** A folder contains all the model formulations tested in the study.
   4. **Code/params_file.csv:** Parameter files for running the array job on HPC. Files of 2,3,4 are need to run the models.
   5. **Code/analysis.r:** Code to extract alpha (interaction coefficients) matrices and visualize the results.
-  6. **Code/alpha_sim.r:** Code to perturb the interaction matrices and comptuing corresponding biomass.
+  6. **Code/alpha_sim.r:** Code to perturb the interaction matrices, comptuing corresponding biomass, and produce the diversity-productivity relationships (including figures). 
   7. **Code/identifiability.r** Code to perform indentifiability analysis given the number of parameters in the pairwise model.
