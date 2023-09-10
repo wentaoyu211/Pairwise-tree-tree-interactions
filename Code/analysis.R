@@ -26,7 +26,7 @@ library(gridExtra) # annotation below x axis
 
 
 # load the stan_fit object of the pairwise model here named "res.rds"
-fit <- readRDS("res.7.rds") 
+fit <- readRDS("res.7.rds") # this file can be found on figshare.
 
 # extract the summary table from the stan_fit object
 pars <- summary(fit)$summary 
