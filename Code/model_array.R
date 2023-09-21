@@ -4,8 +4,6 @@
 # every job is a run on a model with specific structure 
 # null/neutral/pairwise  * two random effect scenario
 # in total 20 models were tested 
-# for null model the running time is about 4 hours with 9 cores
-# for other models the running time ranged from 3,4 days to 14 days
 #------------------------------------------------------------------------------#
 
 rm(list=ls())
