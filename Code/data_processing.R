@@ -104,7 +104,6 @@ data.6 = list(ND = ND,
 save(data.1,  data.5, data.6, file="A_8sp.RData")
 
 # Note that A_8sp.RData are input data files for Stan models and it should run
-# together with params_file.csv, model.array.R, and the stan file in model.stan folder on GitHub
-# https://github.com/wentaoyu211/Pairwise-tree-tree-interactions/tree/main/Code/model.stan
+# together with params_file.csv, model.array.R, and the stan file in model.stan folder 
 # the study ran the model on HPC using 12 cores for each model
 # the time used for each model ranged from around 4 hours to 14 days.
