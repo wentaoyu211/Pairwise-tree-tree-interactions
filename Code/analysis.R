@@ -16,20 +16,18 @@ library(patchwork) # for arrange the plot
 library(gridExtra) # annotation below x axis
 
 
-############################## plots alpha matrix ##############################
+################################### plotting ###################################
 # each fitted model will be presented in the form of stan_fit object
 # which consists of sampled distribution of all parameters in the model
 # the pairwise model performed the best is the m.7.stan
 # in the list of model formulation PDF file, it is the m.7 model depicted in equation 
-# correspond to res.7.rds (stan_fit object)
-# it is the one whose interaction coefficients were shown in the paper
-
-
-# load the stan_fit object of the pairwise model here named "res.7.rds"
+# correspond to res.7.rds (stan_fit object), whose interaction coefficients were shown in the main text
 # we provide this model output in case running the model will take too long
 # the main part of model output is a 12000*637 (number of sampling * number of parameters) matrix
 # for detail of stan_fit output see https://mc-stan.org/rstan/reference/stanfit-class.html
+# if you do not wish to load this huge output, go to "plot alpha matrix"
 
+# load the stan_fit object of the pairwise model here named "res.7.rds"
 fit <- readRDS("res.7.rds") # this file can be found on figshare.
 
 # extract the summary table from the stan_fit object
@@ -55,7 +53,10 @@ colnames(alpha_matrix) <- c("a1", "a2", "a3", "a4", "a5", "a6", "a7", "a8")
 # save the alpha matrix and parameter estimates that will be used in alpha_sim.R
 save(alpha_matrix, pars, file = "interaction_set1.RData")  # this file can be found on figshare
 
-# plot the matrix
+
+############################## plots alpha matrix ##############################
+# if you skip the first chunk
+
 # change to dataframe required by ggplot
 alpha_df <- melt(alpha_matrix)
 
